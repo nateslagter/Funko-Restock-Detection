@@ -5,5 +5,6 @@ This Python script was created by me in order to monitor a few certain webpages 
 There is most certainly faster bots, better bots, all of that out there; however, I wanted something quick and dirty that I could write myself.
 
 **How it works**
+
 This bot functions on the idea that each website has a slightly different way of saying how the product is out of stock; it checks the site against the parameters I have listed, and if it is different, sends an email out saying that the product has restocked.
 The products are listed in a dictionary; the key is the name of the product, and the value is a 2 - tuple with the link and the name of the site that contains the product.
