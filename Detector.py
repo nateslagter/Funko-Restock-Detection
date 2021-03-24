@@ -35,7 +35,7 @@ def main() :
                 time.sleep(3)
             else:
                 sendEmail(details,key)
-        elif (details[1] == 'Hot Topic'):
+        elif (details[1] == 'Hot Topic') or (details[1] == 'BoxLunch'):
             response = requests.get(url,headers=headers)
             soup = BeautifulSoup(response.text,'lxml')
             soupString = soup.get_text()
