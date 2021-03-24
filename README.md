@@ -1,4 +1,4 @@
-# Funko-Restock-Detection
+# Funko Restock Detection
 
 This Python script was created by me in order to monitor a few certain webpages to see if they were updated with new stock; I was constantly missing out on drops, so I wanted something that would just tell me when the product has restocked.
 
