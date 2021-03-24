@@ -55,9 +55,8 @@ def main() :
         else:
             print('ERROR : NO FUNKO WITH THAT NAME FOUND')
     funko = {
-                'Madara Uchiha' : ('https://www.gamestop.com/toys-collectibles/funko/pop/products/pop-animation-naruto-shippuden-madara-reanimation-only-at-gamestop/11095723.html','Gamestop'),
-                'Glow Kurama' : ('https://www.gamestop.com/toys-collectibles/funko/pop/products/pop-animation-naruto-shippuden-kurama-glow-in-the-dark-6-inch-only-at-gamestop/10127756.html','Gamestop')
-                }
+                'funko name here' : ('url here' , 'webiste name here')
+    }
     funkoList = list(funko.keys())
     while True:
         for key in funkoList:
