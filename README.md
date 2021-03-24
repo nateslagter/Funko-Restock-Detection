@@ -11,4 +11,8 @@ The products are listed in a dictionary; the key is the name of the product, and
 
 **Features**
 
-As of right now, this bot is only capable of detcting restocks from the official Funko website, Hot Topic, and Gamestop. More functionality will be added later on. It sleeps in between each check as to not overload the websites with unecessarsy requests. The program will run on a continuous loop until stopped by the user in the terminal.
+As of right now, this bot is only capable of detcting restocks from the official Funko website, Hot Topic, BoxLunch, and GameStop. More functionality will be added later on. It sleeps in between each check as to not overload the websites with unecessarsy requests. The program will run on a continuous loop until stopped by the user in the terminal.
+
+**_The Plan_**
+
+The goal for this project is to eventually run on a tiny MySQL Database that stores all the funkos you are looking for, have a nice looking GUI that allows for navigation of the program without editing the source code, and bug fixes that will improve the overall experience.
