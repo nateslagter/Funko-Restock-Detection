@@ -11,8 +11,16 @@ The products are listed in a dictionary; the key is the name of the product, and
 
 **Features**
 
-As of right now, this bot is only capable of detcting restocks from the official Funko website, Hot Topic, BoxLunch, and GameStop. More functionality will be added later on. It sleeps in between each check as to not overload the websites with unecessarsy requests. The program will run on a continuous loop until stopped by the user in the terminal.
+As of right now, this bot is only capable of detcting restocks from the official Funko website, Hot Topic, BoxLunch, and GameStop. More functionality will be added later on. It sleeps in between each check as to not overload the websites with unecessary requests. The program will run on a continuous loop until stopped by the user in the terminal.
+
+**How to Run**
+
+As of right now, this is just a simple python script. You will need to go in and manually edit the dictionary var that stores the Funko products you are looking for. Along with this, you will need to run it from your favorite terminal in order to get results. To have the program email you when it detects a restock, you must fill in your email info, and make sure you have an app password so the script can long onto your account and send the email. 
 
 **_The Plan_**
 
 The goal for this project is to eventually run on a tiny MySQL Database that stores all the funkos you are looking for, have a nice looking GUI that allows for navigation of the program without editing the source code, and bug fixes that will improve the overall experience.
+
+**Contacting Me**
+
+I am an amateur coder; if you have any complaints or any suggestions, please feel free to reach out to me at nateslagter@gmail.com , or just message me in GitHub.
